@@ -7,6 +7,7 @@ if test "$FZF_LEGACY_KEYBINDINGS" -eq 1
     bind \cx '__fzf_find_and_execute'
     bind \ec '__fzf_cd'
     bind \eC '__fzf_cd_with_hidden'
+    bind \cs '__fzf_locate'
 
     if bind -M insert >/dev/null ^/dev/null
         bind -M insert \ct '__fzf_find_file'
@@ -14,6 +15,7 @@ if test "$FZF_LEGACY_KEYBINDINGS" -eq 1
         bind -M insert \cx '__fzf_find_and_execute'
         bind -M insert \ec '__fzf_cd'
         bind -M insert \eC '__fzf_cd_with_hidden'
+        bind -M insert \cs '__fzf_locate'
     end
 else
     bind \cf '__fzf_find_file'
@@ -21,6 +23,7 @@ else
     bind \ex '__fzf_find_and_execute'
     bind \eo '__fzf_cd'
     bind \eO '__fzf_cd_with_hidden'
+    bind \cs '__fzf_locate'
 
     if bind -M insert >/dev/null ^/dev/null
         bind -M insert \cf '__fzf_find_file'
@@ -28,5 +31,6 @@ else
         bind -M insert \ex '__fzf_find_and_execute'
         bind -M insert \eo '__fzf_cd'
         bind -M insert \eO '__fzf_cd_with_hidden'
+        bind -M insert \cs '__fzf_locate'
     end
 end
