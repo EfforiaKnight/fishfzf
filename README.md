@@ -17,6 +17,10 @@ fisher fzf
 * Required fish version: `>=2.4.0`
 * Compatible fzf versions: `>0.11.3`
 
+## Changes from original [fzf]
+* What you type* prior to pressing fzf-shortcut (i.e. ctrl-f) will be part of the initial quary.
+* When using find-file (non-legacy: ctrl-f) or locate (ctrl-s) if the first tokken in the commandline is executable, it will be omitted from the initial quary and rest tokkens in the commandline will be in the initial quary if any.
+
 ## Additional tools
 * [tmux] - terminal multiplexer
 * [rougify] - colored peview
@@ -84,6 +88,7 @@ NOTE: On OS X, Alt-c (Option-c) types ç by default. In iTerm2, you can send the
 [tmux]:https://tmux.github.io/
 [rougify]:http://rouge.jneen.net/
 [locate]:https://anonscm.debian.org/cgit/collab-maint/mlocate.git
+[fzf]:https://github.com/fisherman/fzf
 [slack-link]: https://fisherman-wharf.herokuapp.com
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
