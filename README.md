@@ -9,7 +9,7 @@
 With [fisherman]
 
 ```
-fisher fzf
+fisher EfforiaKnight/fishfzf
 ```
 
 ## Notes
