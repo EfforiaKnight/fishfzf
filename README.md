@@ -7,7 +7,7 @@
 With [fisherman]
 
 ```
-fisher EfforiaKnight/fishfzf
+fisher add EfforiaKnight/fishfzf
 ```
 
 ## Notes
