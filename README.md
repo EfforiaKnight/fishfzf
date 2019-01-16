@@ -1,7 +1,5 @@
 # Fzf
 
-[![Slack Room][slack-badge]][slack-link]
-
 **fzf** provides efficient keybindings for the [fzf](https://github.com/junegunn/fzf) utility. Heavily adapted from @hauleth's PR.
 
 ## Install
